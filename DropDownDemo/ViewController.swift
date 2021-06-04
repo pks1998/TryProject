@@ -8,9 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+var number = 10
     override func viewDidLoad() {
         super.viewDidLoad()
+        number += 11
         // Do any additional setup after loading the view.
     }
 
