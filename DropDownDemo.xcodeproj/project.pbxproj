@@ -14,6 +14,8 @@
 		159189682669A13D001C0AC4 /* DropDownDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 159189662669A13D001C0AC4 /* DropDownDemo.xcdatamodeld */; };
 		1591896A2669A140001C0AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159189692669A140001C0AC4 /* Assets.xcassets */; };
 		1591896D2669A140001C0AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1591896B2669A140001C0AC4 /* LaunchScreen.storyboard */; };
+		159189792669A367001C0AC4 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159189782669A367001C0AC4 /* DemoViewController.swift */; };
+		1591897B2669A6F7001C0AC4 /* PaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1591897A2669A6F7001C0AC4 /* PaddedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		159189692669A140001C0AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1591896C2669A140001C0AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1591896E2669A140001C0AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		159189782669A367001C0AC4 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		1591897A2669A6F7001C0AC4 /* PaddedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				1591895D2669A13D001C0AC4 /* AppDelegate.swift */,
 				1591895F2669A13D001C0AC4 /* SceneDelegate.swift */,
 				159189612669A13D001C0AC4 /* ViewController.swift */,
+				1591897A2669A6F7001C0AC4 /* PaddedTextField.swift */,
+				159189782669A367001C0AC4 /* DemoViewController.swift */,
 				159189632669A13D001C0AC4 /* Main.storyboard */,
 				159189692669A140001C0AC4 /* Assets.xcassets */,
 				1591896B2669A140001C0AC4 /* LaunchScreen.storyboard */,
@@ -142,8 +148,10 @@
 			files = (
 				159189622669A13D001C0AC4 /* ViewController.swift in Sources */,
 				1591895E2669A13D001C0AC4 /* AppDelegate.swift in Sources */,
+				159189792669A367001C0AC4 /* DemoViewController.swift in Sources */,
 				159189602669A13D001C0AC4 /* SceneDelegate.swift in Sources */,
 				159189682669A13D001C0AC4 /* DropDownDemo.xcdatamodeld in Sources */,
+				1591897B2669A6F7001C0AC4 /* PaddedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
